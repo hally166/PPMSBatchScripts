@@ -14,7 +14,7 @@
 import requests
 import csv
 
-#constants, cahnge url to match your own
+#constants, change url to match your own
 url='https://ppms.eu/xxx/API2/'
 headers = {'content-type': 'application/x-www-form-urlencoded'}
 
