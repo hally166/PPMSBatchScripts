@@ -1,4 +1,6 @@
-You will also need to install the [requests](http://docs.python-requests.org/en/master/) package into python.  use `pip install 'requests'`
+These are scripts to automate the use of [PPMS](http://stratocore.com/) using Python.
+
+You need to install the [requests](http://docs.python-requests.org/en/master/) package into python.  use `pip install 'requests'`
 
 ## Batch Booking
 
