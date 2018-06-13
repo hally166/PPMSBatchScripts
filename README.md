@@ -1,5 +1,13 @@
-# PPMSBatchBooking
+You will also need to install the [requests](http://docs.python-requests.org/en/master/) package into python.  use `pip install 'requests'`
 
-This is a very simple script.  It takes the bookings as inputted into the csv file and books them in PPMS.  All you need to change is the API key and coreID.  
+## Batch Booking
 
-You will also need to install the requests package into python.  use `pip install 'requests'`
+It takes the bookings as inputted into the .csv file and books them in PPMS.  An example .csv is included. 
+
+## Batch Delete
+
+The oposite of the booking script.  This one uses session IDs as inputtted via the .txt file.
+
+## User Permissions
+
+This will add or change user permissions _en masse_.  It requires a list of user logins as a .txt file.
